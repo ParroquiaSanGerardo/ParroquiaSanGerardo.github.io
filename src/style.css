@@ -108,7 +108,7 @@ p {
     margin-bottom: 2.5%;
     background-color: var(--naro);
     text-align: center;
-    justify-self: center;
+    justify-content: center;
 
 }
 .b{
@@ -120,7 +120,6 @@ p {
     padding: 5%;
     background-color: var(--naro);
     text-align: center;
-    justify-self: center;
 }
 
 .a {
