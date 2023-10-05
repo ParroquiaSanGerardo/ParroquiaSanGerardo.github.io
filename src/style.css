@@ -22,7 +22,7 @@ footer {
 }
 
 .tam{
-    background: radial-gradient(var(--naro),var(--nar));
+    background: radial-gradient(var(--naro),var(--nar),var(--nar));
 }
 
 article,
