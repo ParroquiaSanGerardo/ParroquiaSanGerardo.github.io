@@ -120,6 +120,7 @@ p {
     padding: 5%;
     background-color: var(--naro);
     text-align: center;
+    justify-content: center;
 }
 
 .a {
