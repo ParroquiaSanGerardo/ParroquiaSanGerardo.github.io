@@ -7,9 +7,22 @@
 }
 
 :root{
-    --nar: #ff8800;
-    --naro: #b96300;
-    --neg: #000000;
+    --nar: rgb(255, 136, 0);
+    --naro: rgb(185, 99, 0);
+    --neg: rgb(0, 0, 0);
+    --bla: rgb(255,255,255);
+    --ver: rgb(0, 129, 0);
+    --vero: rgb(0, 140, 0);    
+    --mor: rgb(121, 69, 152);
+    --moro: rgb(162, 92, 202);
+    --roj: rgb(254,0,0);
+    --rojo: rgb(167, 0, 0);
+    --ama: rgb(255, 255, 0);
+    --bei: rgb(231, 216, 150);
+    --ros: rgb(255,129,130);
+    --roso: rgb(189, 97, 97);
+    --az: rgb(0,0,254);
+    --azo: rgb(0, 0, 146);
 }
 
 div,
@@ -22,7 +35,7 @@ footer {
 }
 
 .tam{
-    background: radial-gradient(var(--naro),var(--nar),var(--nar));
+    background: radial-gradient(var(--vero),var(--ver),var(--ver));
 }
 
 article,
@@ -30,7 +43,7 @@ header,
 .boton,
 .boton2,
 footer {
-    box-shadow: 5px 5px 5px var(--naro);
+    box-shadow: 5px 5px 5px var(--vero);
 }
 
 
@@ -39,16 +52,17 @@ body {
     width: 96%;
     margin: 2%;
     margin-right: 2%;
+    background-color: var(--bei);
 }
 
 header {
     font-family: 'fuente';
-    background-color: var(--nar);
+    background-color: var(--ver);
     display: flex;
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    color: var(--neg);
+    color: var(--bei);
     margin-bottom: 5%;
     padding: 2%;
 }
@@ -74,7 +88,7 @@ h2 {
 }
 
 article {
-    border: 3px solid var(--nar);
+    border: 3px solid var(--ver);
     display: flex;
     flex-direction: column;
     margin-bottom: 5%;
@@ -111,7 +125,7 @@ p {
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 2.5%;
-    background-color: var(--naro);
+    background-color: var(--vero);
     text-align: center;
     justify-content: center;
 
@@ -123,7 +137,7 @@ p {
 .boton {
     width: 75%;
     padding: 5%;
-    background-color: var(--naro);
+    background-color: var(--vero);
     text-align: center;
     justify-content: center;
 }
@@ -135,7 +149,7 @@ p {
 }
 
 a {
-    color: var(--neg);
+    color: var(--bei);
     text-decoration: none;
 }
 
@@ -160,7 +174,7 @@ a {
 
 footer {
     width: 100%;
-    background-color: var(--nar);
+    background-color: var(--ver);
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     display: flex;
@@ -169,7 +183,7 @@ footer {
 
 .fot {
     width: 85%;
-    color: var(--neg);
+    color: var(--bei);
     font-family: 'fuente';
     text-align: center;
 }
